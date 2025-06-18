@@ -1,0 +1,403 @@
+
+[
+  {
+    "State": "Alabama",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "5.0",
+    "Sales Tax": "4.00%",
+    "Sales Tax Rate": "4.0",
+    "Notes": "Local sales taxes may increase total"
+  },
+  {
+    "State": "Alaska",
+    "Income Tax": "No",
+    "Income Tax Rate": "0.0",
+    "Sales Tax": "0.00%",
+    "Sales Tax Rate": "0.0",
+    "Notes": "Some localities impose sales tax"
+  },
+  {
+    "State": "Arizona",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "4.5",
+    "Sales Tax": "5.60%",
+    "Sales Tax Rate": "5.6",
+    "Notes": "Local tax may apply"
+  },
+  {
+    "State": "Arkansas",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "5.9",
+    "Sales Tax": "6.50%",
+    "Sales Tax Rate": "6.5",
+    "Notes": "One of the highest combined sales tax rates"
+  },
+  {
+    "State": "California",
+    "Income Tax": "Yes (up to 13.3%)",
+    "Income Tax Rate": "13.3",
+    "Sales Tax": "7.25%",
+    "Sales Tax Rate": "7.25",
+    "Notes": "High tax state, local sales tax applies"
+  },
+  {
+    "State": "Colorado",
+    "Income Tax": "Yes (flat 4.4%)",
+    "Income Tax Rate": "4.4",
+    "Sales Tax": "2.90%",
+    "Sales Tax Rate": "2.9",
+    "Notes": "Local sales tax can be high"
+  },
+  {
+    "State": "Connecticut",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "6.99",
+    "Sales Tax": "6.35%",
+    "Sales Tax Rate": "6.35",
+    "Notes": "State income tax has multiple brackets"
+  },
+  {
+    "State": "Delaware",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "6.6",
+    "Sales Tax": "0.00%",
+    "Sales Tax Rate": "0.0",
+    "Notes": "No state sales tax"
+  },
+  {
+    "State": "Florida",
+    "Income Tax": "No",
+    "Income Tax Rate": "0.0",
+    "Sales Tax": "6.00%",
+    "Sales Tax Rate": "6.0",
+    "Notes": "Relies on tourism and sales tax"
+  },
+  {
+    "State": "Georgia",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "5.75",
+    "Sales Tax": "4.00%",
+    "Sales Tax Rate": "4.0",
+    "Notes": "Local sales tax applies"
+  },
+  {
+    "State": "Hawaii",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "11.0",
+    "Sales Tax": "4.00%",
+    "Sales Tax Rate": "4.0",
+    "Notes": "Excise tax instead of sales tax"
+  },
+  {
+    "State": "Idaho",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "6.0",
+    "Sales Tax": "6.00%",
+    "Sales Tax Rate": "6.0",
+    "Notes": ""
+  },
+  {
+    "State": "Illinois",
+    "Income Tax": "Yes (flat 4.95%)",
+    "Income Tax Rate": "4.95",
+    "Sales Tax": "6.25%",
+    "Sales Tax Rate": "6.25",
+    "Notes": "High property taxes"
+  },
+  {
+    "State": "Indiana",
+    "Income Tax": "Yes (flat 3.23%)",
+    "Income Tax Rate": "3.23",
+    "Sales Tax": "7.00%",
+    "Sales Tax Rate": "7.0",
+    "Notes": "Flat income tax"
+  },
+  {
+    "State": "Iowa",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "8.53",
+    "Sales Tax": "6.00%",
+    "Sales Tax Rate": "6.0",
+    "Notes": "Income tax brackets apply"
+  },
+  {
+    "State": "Kansas",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "5.7",
+    "Sales Tax": "6.50%",
+    "Sales Tax Rate": "6.5",
+    "Notes": "High sales tax"
+  },
+  {
+    "State": "Kentucky",
+    "Income Tax": "Yes (flat 4.5%)",
+    "Income Tax Rate": "4.5",
+    "Sales Tax": "6.00%",
+    "Sales Tax Rate": "6.0",
+    "Notes": "Flat income tax"
+  },
+  {
+    "State": "Louisiana",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "6.0",
+    "Sales Tax": "4.45%",
+    "Sales Tax Rate": "4.45",
+    "Notes": "High local sales tax"
+  },
+  {
+    "State": "Maine",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "7.15",
+    "Sales Tax": "5.50%",
+    "Sales Tax Rate": "5.5",
+    "Notes": ""
+  },
+  {
+    "State": "Maryland",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "5.75",
+    "Sales Tax": "6.00%",
+    "Sales Tax Rate": "6.0",
+    "Notes": "Local income taxes apply"
+  },
+  {
+    "State": "Massachusetts",
+    "Income Tax": "Yes (flat 5%)",
+    "Income Tax Rate": "5.0",
+    "Sales Tax": "6.25%",
+    "Sales Tax Rate": "6.25",
+    "Notes": "Flat income tax"
+  },
+  {
+    "State": "Michigan",
+    "Income Tax": "Yes (flat 4.25%)",
+    "Income Tax Rate": "4.25",
+    "Sales Tax": "6.00%",
+    "Sales Tax Rate": "6.0",
+    "Notes": "Flat income tax"
+  },
+  {
+    "State": "Minnesota",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "9.85",
+    "Sales Tax": "6.875%",
+    "Sales Tax Rate": "6.875",
+    "Notes": "High income tax rates"
+  },
+  {
+    "State": "Mississippi",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "5.0",
+    "Sales Tax": "7.00%",
+    "Sales Tax Rate": "7.0",
+    "Notes": "Highest state sales tax rate"
+  },
+  {
+    "State": "Missouri",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "5.4",
+    "Sales Tax": "4.225%",
+    "Sales Tax Rate": "4.225",
+    "Notes": "Local tax applies"
+  },
+  {
+    "State": "Montana",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "6.9",
+    "Sales Tax": "0.00%",
+    "Sales Tax Rate": "0.0",
+    "Notes": "No state sales tax"
+  },
+  {
+    "State": "Nebraska",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "6.84",
+    "Sales Tax": "5.50%",
+    "Sales Tax Rate": "5.5",
+    "Notes": ""
+  },
+  {
+    "State": "Nevada",
+    "Income Tax": "No",
+    "Income Tax Rate": "0.0",
+    "Sales Tax": "6.85%",
+    "Sales Tax Rate": "6.85",
+    "Notes": "Relies on sales and tourism taxes"
+  },
+  {
+    "State": "New Hampshire",
+    "Income Tax": "No",
+    "Income Tax Rate": "0.0",
+    "Sales Tax": "0.00%",
+    "Sales Tax Rate": "0.0",
+    "Notes": "Tax on dividends and interest only"
+  },
+  {
+    "State": "New Jersey",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "10.75",
+    "Sales Tax": "6.625%",
+    "Sales Tax Rate": "6.625",
+    "Notes": "High property taxes"
+  },
+  {
+    "State": "New Mexico",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "5.9",
+    "Sales Tax": "5.125%",
+    "Sales Tax Rate": "5.125",
+    "Notes": "Gross receipts tax instead of sales tax"
+  },
+  {
+    "State": "New York",
+    "Income Tax": "Yes (up to 10.9%)",
+    "Income Tax Rate": "10.9",
+    "Sales Tax": "4.00%",
+    "Sales Tax Rate": "4.0",
+    "Notes": "Local income and sales tax apply"
+  },
+  {
+    "State": "North Carolina",
+    "Income Tax": "Yes (flat 4.75%)",
+    "Income Tax Rate": "4.75",
+    "Sales Tax": "4.75%",
+    "Sales Tax Rate": "4.75",
+    "Notes": "Flat income tax"
+  },
+  {
+    "State": "North Dakota",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "2.9",
+    "Sales Tax": "5.00%",
+    "Sales Tax Rate": "5.0",
+    "Notes": ""
+  },
+  {
+    "State": "Ohio",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "3.99",
+    "Sales Tax": "5.75%",
+    "Sales Tax Rate": "5.75",
+    "Notes": "Local income tax in cities"
+  },
+  {
+    "State": "Oklahoma",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "5.0",
+    "Sales Tax": "4.50%",
+    "Sales Tax Rate": "4.5",
+    "Notes": "High local sales tax"
+  },
+  {
+    "State": "Oregon",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "9.9",
+    "Sales Tax": "0.00%",
+    "Sales Tax Rate": "0.0",
+    "Notes": "No state sales tax"
+  },
+  {
+    "State": "Pennsylvania",
+    "Income Tax": "Yes (flat 3.07%)",
+    "Income Tax Rate": "3.07",
+    "Sales Tax": "6.00%",
+    "Sales Tax Rate": "6.0",
+    "Notes": "Flat income tax"
+  },
+  {
+    "State": "Rhode Island",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "5.99",
+    "Sales Tax": "7.00%",
+    "Sales Tax Rate": "7.0",
+    "Notes": ""
+  },
+  {
+    "State": "South Carolina",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "7.0",
+    "Sales Tax": "6.00%",
+    "Sales Tax Rate": "6.0",
+    "Notes": ""
+  },
+  {
+    "State": "South Dakota",
+    "Income Tax": "No",
+    "Income Tax Rate": "0.0",
+    "Sales Tax": "4.50%",
+    "Sales Tax Rate": "4.5",
+    "Notes": ""
+  },
+  {
+    "State": "Tennessee",
+    "Income Tax": "No",
+    "Income Tax Rate": "0.0",
+    "Sales Tax": "7.00%",
+    "Sales Tax Rate": "7.0",
+    "Notes": "Highest state sales tax rate"
+  },
+  {
+    "State": "Texas",
+    "Income Tax": "No",
+    "Income Tax Rate": "0.0",
+    "Sales Tax": "6.25%",
+    "Sales Tax Rate": "6.25",
+    "Notes": "Relies on sales and property tax"
+  },
+  {
+    "State": "Utah",
+    "Income Tax": "Yes (flat 4.85%)",
+    "Income Tax Rate": "4.85",
+    "Sales Tax": "6.10%",
+    "Sales Tax Rate": "6.1",
+    "Notes": ""
+  },
+  {
+    "State": "Vermont",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "8.75",
+    "Sales Tax": "6.00%",
+    "Sales Tax Rate": "6.0",
+    "Notes": ""
+  },
+  {
+    "State": "Virginia",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "5.75",
+    "Sales Tax": "5.30%",
+    "Sales Tax Rate": "5.3",
+    "Notes": ""
+  },
+  {
+    "State": "Washington",
+    "Income Tax": "No",
+    "Income Tax Rate": "0.0",
+    "Sales Tax": "6.50%",
+    "Sales Tax Rate": "6.5",
+    "Notes": "High sales tax overall"
+  },
+  {
+    "State": "West Virginia",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "6.5",
+    "Sales Tax": "6.00%",
+    "Sales Tax Rate": "6.0",
+    "Notes": ""
+  },
+  {
+    "State": "Wisconsin",
+    "Income Tax": "Yes",
+    "Income Tax Rate": "7.65",
+    "Sales Tax": "5.00%",
+    "Sales Tax Rate": "5.0",
+    "Notes": ""
+  },
+  {
+    "State": "Wyoming",
+    "Income Tax": "No",
+    "Income Tax Rate": "0.0",
+    "Sales Tax": "4.00%",
+    "Sales Tax Rate": "4.0",
+    "Notes": ""
+  }
+]
