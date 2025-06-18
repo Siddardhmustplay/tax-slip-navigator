@@ -1,12 +1,12 @@
 
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import HomePage from './pages/HomePage';
-import TaxCalculatorPage from './pages/TaxCalculatorPage';
-import TaxSlipPage from './pages/TaxSlipPage';
-import AboutPage from './pages/AboutPage';
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
+import HomePage from './pages/HomePage.jsx';
+import TaxCalculatorPage from './pages/TaxCalculatorPage.jsx';
+import TaxSlipPage from './pages/TaxSlipPage.jsx';
+import AboutPage from './pages/AboutPage.jsx';
 import './App.css';
 
 const App = () => {
