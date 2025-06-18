@@ -7,13 +7,14 @@ import HomePage from './pages/HomePage';
 import TaxCalculatorPage from './pages/TaxCalculatorPage';
 import TaxSlipPage from './pages/TaxSlipPage';
 import AboutPage from './pages/AboutPage';
+import './App.css';
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="min-h-screen flex flex-col">
+      <div className="app">
         <Header />
-        <main className="flex-grow">
+        <main className="main-content">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/calculator" element={<TaxCalculatorPage />} />

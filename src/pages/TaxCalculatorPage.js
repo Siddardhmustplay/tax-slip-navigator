@@ -96,39 +96,41 @@ const TaxCalculatorPage = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto mb-4"></div>
-          <p className="text-gray-600">Loading tax data...</p>
+      <div className="page-container">
+        <div className="container">
+          <div className="text-center">
+            <div className="spinner"></div>
+            <p className="text-gray-600">Loading tax data...</p>
+          </div>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 py-12">
-      <div className="container mx-auto px-4">
-        <div className="max-w-2xl mx-auto">
+    <div className="page-container">
+      <div className="container">
+        <div className="calculator-container">
           <div className="text-center mb-8">
-            <h1 className="text-4xl font-bold text-gray-800 mb-4">
+            <h1 className="calculator-title">
               🧮 Tax Calculator
             </h1>
-            <p className="text-gray-600 text-lg">
+            <p className="calculator-subtitle">
               Calculate your tax deductions for any U.S. state
             </p>
           </div>
 
-          <div className="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+          <div className="card">
             {error && (
-              <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg mb-6">
+              <div className="alert alert-error">
                 {error}
               </div>
             )}
 
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form onSubmit={handleSubmit}>
               {/* State Selection */}
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
+              <div className="form-group">
+                <label className="form-label">
                   🗺️ Select State
                 </label>
                 <select
@@ -138,7 +140,7 @@ const TaxCalculatorPage = () => {
                     setTaxType('');
                     setError('');
                   }}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+                  className="form-select"
                   required
                 >
                   <option value="">Choose a state...</option>
@@ -151,8 +153,8 @@ const TaxCalculatorPage = () => {
               </div>
 
               {/* Tax Type Selection */}
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
+              <div className="form-group">
+                <label className="form-label">
                   📊 Tax Type
                 </label>
                 <select
@@ -161,7 +163,7 @@ const TaxCalculatorPage = () => {
                     setTaxType(e.target.value);
                     setError('');
                   }}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+                  className="form-select"
                   required
                   disabled={!selectedState}
                 >
@@ -173,15 +175,15 @@ const TaxCalculatorPage = () => {
                   ))}
                 </select>
                 {selectedState && getAvailableTaxTypes().length === 0 && (
-                  <p className="mt-2 text-sm text-gray-500">
+                  <p className="mt-4 text-gray-600" style={{fontSize: '0.875rem'}}>
                     No taxes available for this state
                   </p>
                 )}
               </div>
 
               {/* Amount Input */}
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
+              <div className="form-group">
+                <label className="form-label">
                   💰 Amount ($)
                 </label>
                 <input
@@ -194,7 +196,7 @@ const TaxCalculatorPage = () => {
                   placeholder="Enter amount to calculate tax"
                   step="0.01"
                   min="0"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+                  className="form-input"
                   required
                 />
               </div>
@@ -202,7 +204,8 @@ const TaxCalculatorPage = () => {
               {/* Submit Button */}
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white py-3 px-6 rounded-lg font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+                className="btn btn-primary btn-large"
+                style={{width: '100%'}}
               >
                 🧾 Calculate My Deduction
               </button>
@@ -210,14 +213,14 @@ const TaxCalculatorPage = () => {
 
             {/* Selected State Info */}
             {selectedState && (
-              <div className="mt-8 p-4 bg-blue-50 rounded-lg border border-blue-200">
-                <h3 className="font-semibold text-blue-800 mb-2">
+              <div className="state-info">
+                <h3 className="state-info-title">
                   📍 {selectedState} Tax Information
                 </h3>
                 {(() => {
                   const stateData = states.find(state => state.State === selectedState);
                   return (
-                    <div className="text-sm text-blue-700 space-y-1">
+                    <div className="state-info-list">
                       <p>• Income Tax: {stateData['Income Tax']}</p>
                       <p>• Sales Tax: {stateData['Sales Tax']}</p>
                       {stateData.Notes && <p>• Notes: {stateData.Notes}</p>}
